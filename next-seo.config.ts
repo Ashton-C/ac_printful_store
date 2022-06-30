@@ -1,7 +1,7 @@
 const description =
-  "Launch your own fully automated store with Snipcart, Printful, and Next.js";
-const title = "Your SWAG store";
-const url = "https://swag.nextdropshippingstarter.com";
+  "Smol print on demand tshirt shop featuring cool modern designs.";
+const title = "ShirtsNStuff";
+const url = "https://shirtsnstuff.netlify.app/";
 
 const seo = {
   title,
@@ -14,8 +14,8 @@ const seo = {
     url,
   },
   twitter: {
-    handle: "@notrab",
-    site: "@notrab",
+    handle: "@_Ashton_C",
+    site: "@_Ashton_C",
   },
 };
 
