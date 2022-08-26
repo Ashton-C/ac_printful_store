@@ -1,11 +1,11 @@
 const description =
   "Smol print on demand tshirt shop featuring cool modern designs.";
-const title = "ShirtsNStuff";
-const url = "https://shirtsnstuff.netlify.app/";
+const title = "zhirtz.store";
+const url = "https://zhirtz.store/";
 
 const seo = {
   title,
-  titleTemplate: "%s | Headless Dropshipping Starter",
+  titleTemplate: "%s | Printful Custom T-Shirt Website",
   description,
   openGraph: {
     description,
