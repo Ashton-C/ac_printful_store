@@ -1,6 +1,7 @@
 Pretty sure i have most of the configuration set up.
 TO DO:
-- Connect Stripe in code
+
+- Connect Stripe in code??
 - Connect shipping solutions
 - Implement new store page
 - TEST!

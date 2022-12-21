@@ -71,6 +71,13 @@
 .main-logo {
   font-family: "Silkscreen", sans-serif;
 }
+.productName {
+  font-size: 1.2rem;
+}
+.seriesText {
+  font-family: "Silkscreen", sans-serif;
+  font-size: 1.3rem;
+}
 /* .snipcart-modal,
 .snipcart-cart-header,
 .snipcart-cart__secondary-header,

@@ -7,6 +7,9 @@ import { formatVariantName } from "../lib/format-variant-name";
 import { PrintfulProduct } from "../types";
 
 import ProductGrid from "../components/ProductGrid";
+import Product from "../components/Product";
+
+let randomHero = Math.floor(Math.random() * 6);
 
 type IndexPageProps = {
   products: PrintfulProduct[];
@@ -14,6 +17,9 @@ type IndexPageProps = {
 
 const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
   <>
+    <div className="hero">
+      <Product key={products[randomHero].id} {...products[randomHero]} />
+    </div>
     <div className="text-center pb-6 md:pb-12">
       <h1 className="text-xl md:text-3xl lg:text-5xl font-bold">
         All Products
