@@ -18,7 +18,18 @@ type IndexPageProps = {
 const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
   <>
     <div className="hero">
-      <Product key={products[randomHero].id} {...products[randomHero]} />
+      <div className="heroText">
+        <h3>Welcome to ZHIRTZ!</h3>
+        <p>
+          I just wanted a place to make and order dank shirts for my wife and
+          myself, but perhaps you'll like them too! Thanks for visiting!
+        </p>
+      </div>
+      <Product
+        className="heroProduct"
+        key={products[randomHero].id}
+        {...products[randomHero]}
+      />
     </div>
     <div className="text-center pb-6 md:pb-12">
       <h1 className="text-xl md:text-3xl lg:text-5xl font-bold">

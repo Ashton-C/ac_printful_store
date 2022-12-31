@@ -72,12 +72,31 @@
   font-family: "Silkscreen", sans-serif;
 }
 .productName {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .seriesText {
   font-family: "Silkscreen", sans-serif;
   font-size: 1.3rem;
 }
+.heroProduct {
+  background: lightyellow;
+  width: 75%;
+  height: 100%;
+}
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 85vh;
+}
+.heroText {
+  position: relative;
+  width: 33vw;
+  text-align: center;
+  height: max-content;
+  margin: 0 auto;
+}
+
 /* .snipcart-modal,
 .snipcart-cart-header,
 .snipcart-cart__secondary-header,

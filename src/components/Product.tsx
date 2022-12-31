@@ -31,7 +31,7 @@ const Product = (product) => {
   const [prodName, series, description] = product.name.split("//");
 
   return (
-    <article className="border border-gray-200 rounded bg-white flex flex-col relative">
+    <article className="border border-gray-200 rounded bg-white flex-auto flex-col relative">
       <div className="p-1 m-1 seriesText">{series}</div>
       <div className="flex items-center justify-center flex-1 sm:flex-shrink-0 w-full p-6">
         {activeVariantFile && (
