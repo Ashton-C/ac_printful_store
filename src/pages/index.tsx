@@ -17,8 +17,8 @@ type IndexPageProps = {
 
 const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
   <>
-    <div className="hero">
-      <div className="heroText">
+    <div className="hero grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
+      <div className="heroText p-4 border-8 border-purple-600">
         <h3>Welcome to ZHIRTZ!</h3>
         <p>
           I just wanted a place to make and order dank shirts for my wife and

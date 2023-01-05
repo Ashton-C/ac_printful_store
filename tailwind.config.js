@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        backgroundImage: {
+          "hero-pattern": "url('/src/memphis-mini-dark.webp')",
+          "light-pattern": "url('/src/memphis-mini.webp')",
+        },
       },
     },
   },
