@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Lunchtime Doubly So";
+  src: url("./LunchtimeDoublySoRegular-D0B3.ttf");
+}
 .snipcart {
   @apply font-sans text-base text-gray-800 font-normal;
 }

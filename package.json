@@ -16,7 +16,8 @@
     "next-seo": "4.28.1",
     "printful-request": "1.1.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "url-loader": "^4.1.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "0.5.2",
