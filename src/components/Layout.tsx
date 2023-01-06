@@ -8,15 +8,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <header className="py-6 md:py-12">
+      <header className="py-3 md:py-6">
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex items-center justify-evenly">
-            <div className="flex-1 flex items-center justify-center">
+            <div className="flex-1 flex items-center justify-left">
               <Link href="/">
                 <a className="flex items-center text-gray-900">
-                  <span className="text-lg font-medium main-logo">
-                    ZHIRTZ.STORE
-                  </span>
+                  <span className="main-logo">ZHIRTZ.STORE</span>
                 </a>
               </Link>
             </div>

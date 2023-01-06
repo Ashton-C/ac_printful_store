@@ -6,11 +6,11 @@ import useWishlistState from "../hooks/useWishlistState";
 
 import VariantPicker from "./VariantPicker";
 
-const Product = (product) => {
+const Product = (product, className) => {
   const { id, name, variants } = product;
   const [firstVariant] = variants;
   const oneStyle = variants.length === 1;
-
+  const heroClassActive = className;
   const [activeVariantExternalId, setActiveVariantExternalId] = useState(
     firstVariant.external_id
   );

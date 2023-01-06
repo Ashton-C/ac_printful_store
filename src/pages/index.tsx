@@ -8,7 +8,6 @@ import { PrintfulProduct } from "../types";
 
 import ProductGrid from "../components/ProductGrid";
 import Product from "../components/Product";
-import "../lunchtime-doubly-so-font/LunchtimeDoublySoRegular-D0B3.ttf";
 
 let randomHero = Math.floor(Math.random() * 6);
 
