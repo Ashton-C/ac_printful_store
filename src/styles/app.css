@@ -1,7 +1,16 @@
 @font-face {
   font-family: "Lunchtime Doubly So";
+<<<<<<< HEAD
+  src: local("Lunchtime Doubly So"),
+    url("../lunchtime-doubly-so-font/LunchtimeDoublySoRegular-D0B3.ttf")
+      format("truetype");
+  weight: 400;
+}
+
+=======
   src: url("./LunchtimeDoublySoRegular-D0B3.ttf");
 }
+>>>>>>> 5260bc70386a8a3eefca8d673de113978e289d3b
 .snipcart {
   @apply font-sans text-base text-gray-800 font-normal;
 }
