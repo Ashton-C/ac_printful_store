@@ -22,7 +22,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
         <h3>Welcome to ZHIRTZ!</h3>
         <p>
           I just wanted a place to make and order dank shirts for my wife and
-          myself, but perhaps youll like them too! Thanks for visiting!
+          myself, but perhaps you&apos;ll like them too! Thanks for visiting!
         </p>
       </div>
       <Product
