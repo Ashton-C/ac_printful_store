@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,500;1,400;1,700&display=swap");
+
 @font-face {
   font-family: "Lunchtime Doubly So";
   src: url("./LunchtimeDoublySoRegular-D0B3.ttf");
 }
 body {
   background-image: url("../memphis-mini.webp");
+  font-family: "Open Sans", san-serif;
 }
 .snipcart {
   @apply font-sans text-base text-gray-800 font-normal;
@@ -76,15 +79,16 @@ body {
   @apply text-gray-900 text-sm leading-5;
 }
 .main-logo {
-  font-family: "Silkscreen", sans-serif;
-  font-size: 3rem;
+  font-family: "Lunchtime Doubly So", san-serif;
+  font-size: 3em;
+  color: #141414;
 }
 .productName {
-  font-size: 1.1rem;
+  font-size: 1.1em;
 }
 .seriesText {
-  font-family: "Silkscreen", sans-serif;
-  font-size: 1.3rem;
+  font-family: "Lunchtime Doubly So", san-serif;
+  font-size: 1.3em;
 }
 .heroProduct {
   background: lightyellow;
@@ -94,12 +98,12 @@ body {
 .hero {
   /* display: flex;
   justify-content: space-evenly; */
+  padding: 1em;
   align-items: center;
   height: min-content;
-  background-image: url("../memphis-mini.webp");
-  font-family: "Lunchtime Doubly So", san-serif;
-  font-size: 1.7rem;
-  color: fuchsia;
+  /* background: rgba(0, 0, 0, 10%); */
+  background-image: url("../memphis-mini-dark.webp");
+  border-radius: 0.25em;
 }
 .heroText {
   position: relative;
@@ -107,7 +111,32 @@ body {
   text-align: center;
   height: fit-content;
   margin: 0 auto;
-  background-image: url("../memphis-mini-dark.webp");
+  background-image: linear-gradient(45deg, #fa5cd0, #ee821a);
+  background-clip: text;
+  color: transparent;
+  overflow: hidden;
+  background-size: 400%;
+  animation: heroTextGrad 5s linear infinite alternate;
+}
+.heroText > h3 {
+  font-family: "Open Sans", san-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding: 0.5em;
+}
+.heroText > p {
+  font-family: "Open Sans", san-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0.5em;
+}
+@keyframes heroTextGrad {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 /* .snipcart-modal,

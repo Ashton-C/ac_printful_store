@@ -37,14 +37,14 @@ const Product = (product, className) => {
         {activeVariantFile && (
           <Image
             src={activeVariantFile.preview_url}
-            width={250}
-            height={250}
+            width={500}
+            height={500}
             alt={`${activeVariant.name} ${name}`}
             title={`${activeVariant.name} ${name}`}
           />
         )}
       </div>
-      <div className="flex-1 p-6 pt-0">
+      <div className="flex-1 p-2">
         <div className="text-center">
           <p className="mb-1 font-semibold text-left productName">{prodName}</p>
           <p className="text-sm text-gray-500 text-left">{formattedPrice}</p>
@@ -60,7 +60,7 @@ const Product = (product, className) => {
           disabled={oneStyle}
         />
         <button
-          className="snipcart-add-item w-full md:w-auto transition flex-shrink-1 py-2 px-4 border border-gray-300 hover:border-transparent shadow-sm text-sm font-medium bg-white text-gray-900 focus:text-white hover:bg-blue-600 hover:text-white focus:bg-blue-600 focus:outline-none rounded"
+          className="snipcart-add-item w-full md:w-auto transition flex-shrink-1 py-2 px-4 border border-gray-300 hover:border-transparent shadow-sm text-sm font-medium bg-orange-300 text-gray-900 focus:text-white hover:bg-rose-300 hover:text-white focus:bg-pink-300 focus:outline-none rounded"
           data-item-id={activeVariantExternalId}
           data-item-price={activeVariant.retail_price}
           data-item-url={`/api/products/${activeVariantExternalId}`}

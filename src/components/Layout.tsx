@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
       </header>
       <main className="py-2 md:py-2">
         {/* THIS IS MAIN FRAME WITH PRODUCT GRID INSIDE */}
-        <div className="max-w-6xl mx-auto px-6">{children}</div>
+        <div className="mx-auto px-6 sm:mx-auto">{children}</div>
       </main>
       <footer className="max-w-6xl mx-auto px-6">
         <div className="py-6 border-t border-gray-100 text-center flex flex-col md:flex-row items-center justify-between">
