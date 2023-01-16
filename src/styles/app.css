@@ -2,10 +2,10 @@
 
 @font-face {
   font-family: "Lunchtime Doubly So";
-  src: local("./LunchtimeDoublySoRegular-D0B3.ttf");
+  src: url("LunchtimeDoublySoRegular-D0B3.ttf");
 }
 body {
-  background-image: local("../memphis-mini.webp");
+  background-image: url("../memphis-mini.webp");
   font-family: "Open Sans", san-serif;
 }
 .snipcart {
@@ -102,7 +102,7 @@ body {
   align-items: center;
   height: min-content;
   /* background: rgba(0, 0, 0, 10%); */
-  background-image: local("../memphis-mini-dark.webp");
+  background-image: url("../memphis-mini-dark.webp");
   border-radius: 0.25em;
 }
 .heroText {
@@ -116,7 +116,7 @@ body {
   color: transparent;
   overflow: hidden;
   background-size: 400%;
-  animation: heroTextGrad 5s linear infinite alternate;
+  animation: heroTextGrad 3s linear infinite alternate;
 }
 .heroText > h3 {
   font-family: "Open Sans", san-serif;
