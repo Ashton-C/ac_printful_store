@@ -25,11 +25,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
           myself, but perhaps you&apos;ll like them too! Thanks for visiting!
         </p>
       </div>
-      <Product
-        className="heroProduct"
-        key={products[randomHero].id}
-        {...products[randomHero]}
-      />
+      <Product className="heroProduct" key={products[4].id} {...products[4]} />
     </div>
     <div className="text-center py-6 md:py-12">
       <h1 className="text-xl md:text-3xl lg:text-5xl font-bold">
