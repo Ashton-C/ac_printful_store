@@ -5,27 +5,23 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="shortcut icon" href="/static/favicon.ico" />
           <link rel="preconnect" href="https://app.snipcart.com" />
           <link rel="preconnect" href="https://cdn.snipcart.com" />
           <link
             rel="stylesheet"
             href="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.css"
           />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-            rel="stylesheet"
-          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
-            rel="stylesheet"
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
           />
-
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Righteous&display=swap"
             rel="stylesheet"
-          />
+          ></link>
         </Head>
         <body className="antialiased">
           <Main />

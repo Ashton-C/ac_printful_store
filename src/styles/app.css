@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,700&display=swap");
-
-@font-face {
-  font-family: "Lunchtime Doubly So";
-  src: url("LunchtimeDoublySoRegular-D0B3.woff");
+:root {
+  --header-font: font-family: 'Righteous', cursive;
+  --body-font: font-family: 'DM Sans', sans-serif;
+  --extra-font: font-family: 'Nabla', serif;
 }
 body {
   background-image: url("../memphis-mini.webp");
-  font-family: "Open Sans", san-serif;
+  font-family: var(--body-font);
 }
 .snipcart {
   @apply font-sans text-base text-gray-800 font-normal;
@@ -78,16 +77,17 @@ body {
 .snipcart-shipping-rates-list-item__price {
   @apply text-gray-900 text-sm leading-5;
 }
+
 .main-logo {
-  font-family: "Lunchtime Doubly So", san-serif;
+  font-family: 'Righteous', cursive;
   font-size: 3em;
-  color: #141414;
 }
+
 .productName {
   font-size: 1.1em;
 }
 .seriesText {
-  font-family: "Lunchtime Doubly So", san-serif;
+  font-family: 'Righteous', cursive;
   font-size: 1.3em;
 }
 .heroProduct {
@@ -119,13 +119,13 @@ body {
   animation: heroTextGrad 3s linear infinite alternate;
 }
 .heroText > h3 {
-  font-family: "Open Sans", san-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 1.6rem;
   padding: 0.5em;
 }
 .heroText > p {
-  font-family: "Open Sans", san-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.4rem;
   font-weight: 500;
   padding: 0.5em;

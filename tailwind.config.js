@@ -5,12 +5,9 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
-      fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        backgroundImage: {
-          "hero-pattern": "url('/src/memphis-mini-dark.webp')",
-          "light-pattern": "url('/src/memphis-mini.webp')",
-        },
+      backgroundImage: {
+        "hero-pattern": "url('/src/memphis-mini-dark.webp')",
+        "light-pattern": "url('/src/memphis-mini.webp')",
       },
     },
   },

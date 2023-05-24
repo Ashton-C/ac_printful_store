@@ -9,6 +9,7 @@
   },
   "author": "Jamie Barton <jamie@notrab.dev> (https://notrab.dev)",
   "dependencies": {
+    "@next/font": "^13.2.4",
     "classcat": "5.0.3",
     "env": "^0.0.2",
     "lodash.shuffle": "4.2.0",
