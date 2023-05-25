@@ -31,7 +31,7 @@ const Product = (product, className) => {
   const [prodName, series, description] = product.name.split("//");
 
   return (
-    <article className="border border-gray-200 rounded bg-white flex-auto flex-col relative">
+    <article className="border border-gray-200 rounded bg-gray-50 flex-auto flex-col relative">
       <div className="p-1 m-1 seriesText">{series}</div>
       <div className="flex items-center justify-center flex-1 sm:flex-shrink-0 w-full p-6">
         {activeVariantFile && (
@@ -47,10 +47,12 @@ const Product = (product, className) => {
       <div className="flex-1 p-2">
         <div className="text-center">
           <p className="mb-1 font-semibold text-left productName">{prodName}</p>
-          <p className="text-sm text-gray-500 text-left">{formattedPrice}</p>
+          <p className="text-base text-warm-gray-800 text-left">
+            {formattedPrice}
+          </p>
         </div>
       </div>
-      <div className="p-3 flex flex-col sm:flex-row justify-center items-center">
+      <div className="p-3 mx-6 flex flex-col sm:flex-row justify-center items-center">
         <VariantPicker
           value={activeVariantExternalId}
           onChange={({ target: { value } }) =>
