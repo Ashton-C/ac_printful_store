@@ -24,7 +24,6 @@ class MyDocument extends Document {
           ></link>
         </Head>
         <body className="antialiased">
-          <Main />
           <NextScript />
           <script
             async
