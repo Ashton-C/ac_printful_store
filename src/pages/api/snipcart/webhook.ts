@@ -40,11 +40,13 @@ export default async function handler(
   //     .status(500)
   //     .json({ message: "Unable to verify Snipcart webhook token" });
   // }
-
+  console.log(content);
+  createOrder(content);
   try {
     switch (eventName) {
       case "order.completed":
-        await createOrder(content);
+        console.log(content);
+        createOrder(content);
         break;
       case "customauth:customer_updated":
         return res

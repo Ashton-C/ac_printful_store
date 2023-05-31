@@ -30,13 +30,13 @@ const createOrder = async ({
     })
   );
 
-  const { result } = await printful.post("orders", {
-    external_id: invoiceNumber,
+  const { result } = await printful.post("orders?confirm=1", {
     recipient,
     items: printfulItems,
     shipping: shippingRateUserDefinedId,
+    external_id: invoiceNumber,
   });
-
+  console.log("order created:" + { result });
   return result;
 };
 
