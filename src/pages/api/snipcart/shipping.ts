@@ -66,7 +66,7 @@ export default async function handler(
       recipient,
       items,
     });
-
+    console.log(items);
     res.status(200).json({
       rates: result.map((rate) => ({
         cost: rate.rate,
